@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    height: 100px;
+    background-color: black;
+    overflow: hidden;
+}
+.moon{
+    position: absolute;
+    top:200px;
+    left: 50%;
+    width:120px ;
+    height: 120px;
+    background: radial-gradient(circle at 30% 30%, #fdfdfd,#fcfcfc 70%);
+    border-radius: 50%;
+    box-shadow: 0 0 40px 15px rgba(225, 255, 200, 0.5);
+}
